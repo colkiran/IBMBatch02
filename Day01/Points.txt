@@ -1,0 +1,199 @@
+'
+TK - TCL - C
+
+Tool Kit (Gui - C, C++, Perl, Ruby, Python)
+
+
+Python
+------
+Python better than other tech?
+
+1. Python is open source - source code is free 
+
+2. Ready to use libraries and functions
+
+3. Web app 	- Flask, Django, REST API, ORM
+
+   Desktop app 	- TKinter 
+
+   Web app	- Kivy
+
+   Data analytics - Numpy, Pandas, Scipy, Matplotlib, Seaborn
+
+   ML		- LR, Scikit, Tensorflow
+
+   AI		- Siri, 
+
+   Testing	- Pytest, Selenium, Robot Framework
+
+   Webscrapping - Beautiful soup
+
+python code gets interpreted
+
+different versions of python
+----------------------------
+2.x and 3.x
+-----------
+2.x
+---
+print "hello world"
+
+3.x
+----
+print("hello world")
+
+www.python.org
+
+Flavours of python
+-------------------
+Cpython 	- currently using
+
+Jython		- Python - Java
+
+Iron python	- Python - dotnet libraries
+
+Python
+------
+1. SDK
+2. Shell	- 
+3. IDLE		- Editor - Integrated Development Environment
+
+
+Operators Overloaded
+--------------------
++ - Addition and Concatenation
+
+* - Multiplication and print a string n number of times
+
+
+Basic Datatypes
+---------------
+1. Numbers
+   a. integers
+   b. float
+   c. complex 
+   d. long (deprecated - 2.x - 2382347109128082098349237L)
+
+2. String
+3. Boolean
+
+OS Module
+----------
+import os
+
+
+Execute Python code from python shell
+
+in python file and module will have the same extensions .py
+
+reload from imp module
+
+Module - imp
+Function - reload
+
+import imp 
+
+from imp import reload  - reload function becomes local to the environment 
+
+Python Coding Rules
+--------------------
+
+#! - Shebang	- gives the path of python.exe
+
+print("Hello World \n" * 5)
+
+comments
+--------
+# - comments - single line comment
+
+strings are enclosed in " " or ' ' single line string
+
+multiple line strings are enclosed in """  """ or  '''   ''' 
+
+docstring - will describe the functionality of the function
+
+"This is a string"
+
+Paranthesis - not used in python for - functions, loops and control structures
+-----------
+def fun() 
+{
+    for i in range(1, 15)
+    {
+	if i % 2 == 0
+        {
+	    print(i)
+	    print("if cond code")
+	    print("if cond code")
+	    print("if cond code")
+        }
+	print("for loop code")
+	print("for loop code")
+	print("for loop code")
+
+    }
+    print("func code")
+    print("func code")
+    print("func code")
+}
+
+-----------------------------------------------------------------
+in python we use indentation(tab space)
+
+def fun() 
+    for i in range(1, 15)
+	if i % 2 == 0
+	    print(i)
+	    print("if cond code")
+	    print("if cond code")
+	    print("if cond code")
+        
+	print("for loop code")
+	print("for loop code")
+	print("for loop code")
+
+    print("func code")
+    print("func code")
+    print("func code")
+
+
+Variables
+---------
+
+special variables
+-----------------
+__name__	- double underscore pre and post fixed
+
+dunder name - name of the module - __main__
+
+
+Numbers
+-------
+
+in python everything is an object
+
+a = 10 -> a is an object of int class
+
+a = "hello" -> a is an object of string class
+
+
+Operators
+---------
+1. Arithmetic Operators	- +, -, *, /, //, %
+2. Augmentor Operators - =, +=, -=, *=, /=
+3. Comparison Operators - ==, !=, >, <, >=, <=
+4. Logical Operator	- and, or, not
+5. Bitwise Operators	- |, &, ^, >>, <<
+6. Ternary Operators
+
+
+
+
+
+
+
+
+
+
+
+
