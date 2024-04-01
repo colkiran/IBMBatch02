@@ -1,0 +1,93 @@
+items, keys, values, fromkeys, pop, popitem
+
+get, setdefault, update, 
+
+copy, clear
+
+2. Tuple
+--------
+1. tuple is a immutable list
+2. tuple are enclosed in ( )
+
+'count', 'index'
+
+
+set
+---
+1. sets are unordered collections
+2. sets are unique collections
+3. sets cannot be subscripted
+4. sets are mutable
+5. sets are enclosed in ( )
+
+
+List
+Dictionary
+Tuple
+Set
+
+
+1. Write a program which demonstrate comparison statements (> <) and Boolean operations coverage during 'if' conditional statements
+
+
+a = 10
+b = 20
+
+if (a > b):
+    print(f"a is the greatest :{a})
+elif (a < b):
+    print(f"b is the greatest :{b})
+
+
+
+
+
+2. Assignment
+
+"""
+123.123.123.123 - - [26/Apr/2000:00:23:48 -0400] "GET /pics/mypics.gif
+HTTP/1.0" 200 6248 "http://www.abcxyz.com/asctortf/" "Mozilla/4.05
+(Macintosh; I; PPC)"
+123.123.123.123 - - [26/Apr/2000:00:23:48 -0400] "GET /pics/mypics.gif
+HTTP/1.0" 200 6248 "http://www.abcxyz.com/asctortf/" "Mozilla/4.05
+(Macintosh; I; PPC)"
+123.123.123.123 - - [26/Apr/2000:00:23:48 -0400] "GET /pics/mypics.gif
+HTTP/1.0" 200 6248 "http://www.abcxyz.com/asctortf/" "Mozilla/4.05
+(Macintosh; I; PPC)"
+"""
+
+Produce below outputs
+
+Output-1: list of lists
+[[ip, date, pics, url], [ip, date, pics, url], [ip, date, pics, url]]
+
+Ouput-2: list of tuples
+[(ip, date, pics, url), (ip, date, pics, url), (ip, date, pics, url)]
+
+Output-3: dictionary
+{‘0’: (ip, date, pics, url), ‘1’: (ip, date, pics, url)}
+
+Functions
+---------
+
+What are functions?
+
+def - defnition
+
+
+Scope of a variable
+-------------------
+1. global	- variables declared outside the function
+2. local	- variables declared inside the function
+
+3. non local
+
+
+
+
+
+
+
+
+
+ 
