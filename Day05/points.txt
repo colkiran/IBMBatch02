@@ -1,0 +1,127 @@
+Scope
+-----
+1. Global
+2. local
+3. non local
+4. built-in - exception inside a function
+
+try:
+
+except:
+
+finally:
+
+else, for, if....
+------------------------------------------------------------------
+Local - lexical - scope within a block of code
+
+any variable declared inside a function cannot be accessed outside the function
+
+
+Decorator
+---------
+call a decorator through a function or a class
+
+
+1. nested functions
+2. closures
+3. HOF
+4. Decorator
+
+---------------------------------------
+
+Welcome ---------> Sachin
+
+Welcome =========> Rahul
+
+Welcome ********> Sourav
+
+
+emojis (pycharm terminal)
+------
+pip install emojis
+
+
+OOPS
+----
+Why do we need to implement oops?
+
+
+1. Inheritance
+2. Polymorphism
+3. Abstraction
+4. Encapsulation
+
+
+Inheritance - Banks - will stop accepting cash
+
+debit - cash, transfer(apps, online), cheque, DD
+
+
+Polymorphism - 
+
+
+class variable or class attribute
+---------------------------------
+1. class variables are static
+2. values of class variables are same across objects
+3. class variables are accessible by class name
+4. they are variables declared inside a class and outside methods
+
+
+Different types of Methods
+--------------------------
+1. instance method	- using object
+
+2. class method		- using class name
+
+3. static method	- just name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
