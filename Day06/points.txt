@@ -1,0 +1,95 @@
+Oops
+----
+1. instance Method
+2. class method
+3. static method
+
+
+class Player:
+
+   def __init__(self, name, age):
+	self.name = name
+	self.age = age
+
+   def get_details(self):
+	print(f"Name is {self.name}\nAge is {self.age}
+
+   def CalcAge(stdt, eddt):
+	return age
+
+
+   @classmethod
+   def CreatePlayer(cls, name, dob):
+	# convert the dob to age and call the constructor
+	Player.CalcAge(dt1, dt2)
+	return cls(f"Mr.{fnm} {lnm}", age)		# calls the constructor
+
+
+ply1 = Player("Sachin", 36)
+
+
+# pass the name as firstname and lastname with the age
+
+ply2 = Player.CreatePlayer("Rohit", "Sharma", 34)
+ply2.get_details()
+
+
+Operator Overloading
+--------------------
++ 	=  	__add__
+-	=	__sub__
+
+__add__
+__sub__		Slang - Magic method
+
+
+operator loading comparison operators
+-------------------------------------
+	write it on top of the class
+	@total_ordering  - all other coparison operators will work
+	----------------
+	1. overload the equal to operator
+	2. overload any one operator(>)
+	
+
+
+st = "aabbccddeeabceabbcddaeabcccdddec"
+
+how many times each character is repeated in the string
+
+Arithmetic Operators
+--------------------
++	__add__
+-	__sub__
+*	__mul__
+/	__truediv__
+//	__floordiv__
+
+
+Recap oops
+----------
+1. class
+2. Object
+3. isinstance
+4. __init__
+5. self
+6. __dict__
+7. class attribute
+8. class method	- @classmethod
+9. static method - @staticmethod
+10. cls
+11. Operator overloadint - __str__
+12. __eq__, __gt__, __ne__, __lt__, __ge___  - @total_ordering
+13. arithmetic operators - __add__, __sub__, __mul__, __truediv__, __floordiv__
+14. __iter__, append, __setitem__, __getitem__
+15. private variable - __price
+16. get_item, set_item, del_item - Property(), @Property
+18. Inheritance - multiple, mulptilevel
+
+
+
+
+
+
+
+
