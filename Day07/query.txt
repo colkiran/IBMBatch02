@@ -1,0 +1,5 @@
+insert into student values("ST001", 'Jordan', 'V th Std', 9)
+insert into student values("ST012", 'Jack', 'VI th Std', 11)
+insert into student values("ST020", 'Tina', 'VII th Std', 12)
+insert into student values("ST023", 'Stuart', 'IV th Std',8)
+insert into student values("ST025", 'Grace', 'VIII th Std', 9)

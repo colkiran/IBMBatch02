@@ -1,0 +1,70 @@
+Can we access a private variable created in the parent class
+
+Abstract Method
+---------------
+Frame a new rule and needs to be implemented
+
+Any Bank - should give the customer a privelage where the customer can check his account balance free of cost.
+
+
+File handling
+-------------
+1. Text files
+
+2. CSV files
+3. Json files
+4. Database
+
+
+file handling
+--------------
+text files?  - ascii format - no need of drivers
+
+we have different modes of opening
+
+1. read 	- default mode of opening a file, if open the file in read mode then we 
+		  only read the file.
+
+2. write	- if the file is already existing then it will delete the contents of the 		  file and then write into the file. if the file is not existing then 			  create the file and add the contents into the file. 
+
+3. append	- if the file is already existing then it adds the content into the same 		  file without disturbing the old contents. if the file is not existing 		  then create the file and add the contents into the file. 
+
+randomly open the file and read the contents
+
+seek(offset, whence)
+
+offset - no of bytes that we would skip
+
+whence - 0 - BOF
+	 1 - CP
+	 2 - EOF
+
+seek(50, 0)
+
+['empid', 'empname', 'age', 'dept', 'salary']
+['501', 'Jack', '28', 'HR', '65000']
+['235', 'Jill', '34', 'FIN', '35000']
+['150', 'John', '26', 'AC', '25000']
+['325', 'Jai', '21', 'DEV', '55000']
+['450', 'Guru', '38', 'DEV', '85000']
+['182', 'Sita', '32', 'PRC', '75000']
+['297', 'Gita', '36', 'SUP', '60000']
+
+prettytable
+-----------
+pip install prettytable
+
+
+mysql
+-----
+python  -> pymysql -> mysql
+
+CRUD operation
+--------------
+
+
+
+
+
+
+
