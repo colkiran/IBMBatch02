@@ -1,0 +1,117 @@
+Packages and Modules
+====================
+
+Module
+------
+what is a module?
+
+its called as library in other tech
+
+in Python a normal python program and a module will have the same extension
+ .py
+
+any python program can be considered as a module
+
+
+Location where the modules can be placed
+
+import mymodule
+---------------
+1. look for .pth file in the python native path, if the file is found then import all the paths from the file into the variable sys.path
+
+2. if a module is present in a specified path then import the module
+
+3. Before importing the module convert the module into .pyc file and dump it into __pychache__ folder
+
+4. if we are importing the file for the second time then python compares the date and time of creation of .py and .pyc files. python expects .pyc file to have the latest date and time
+
+3. if the .py file has the latest date or time copared to the .pyc file then python considers that there was an update in the code and recompiles the .py file to create a new .pyc file with the updates
+
+
+import mymodule
+
+from mymodule import class
+
+from mymodule import function
+
+import mypackage.mymodule
+
+from mypackage import *		
+------------------------
+
+packages - classes
+------------------
+class - instantiate a class -> __init__ method
+
+package - try to access a file then -> executes __init__.py
+
+Regular Expressions
+-------------------
+What are regular expressions?
+
+? *
+
+dir *.txt  - * - representing the file name - 0 to any number of characters
+
+? - single character
+
+?a*.txt - all files where the second character is a
+
+Regular Expressions
+-------------------
+PERL  - supports regex
+
+Basic Regular Expressions
+-------------------------
+
+.	-	single character
+
+
+^	-	Begning of the string
+$	-	End of the string
+
+*	-	zero or more occurances
+?	-	zero or one occurance
++	-	one or more occurance
+{n} 	- 	exactly n times
+{n,}	-	min n times max infinite times
+{n,m}	-	min n times and max m times
+[]	- 	character class
+()	-	grouping
+|	-	alternation
+\	-	escape - supress the meaning of regular expression characters
+
+
+
+\w 	-	Word		- alpha numeric characters
+
+\W	-	non word	- special characters
+
+\s	-	space		- spaces
+
+\S	-	non space	- any character other than spaces
+
+\d	-	digit		- numeric
+
+\D	-	non digit	- non numeric
+
+\b	-	word boundary	
+
+\B	- 	non word boundary
+
+\A	-	Begning of the string
+
+\Z 	-	End of the string
+
+
+
+
+
+
+
+
+
+
+
+
+
