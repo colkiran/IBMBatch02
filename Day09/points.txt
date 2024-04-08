@@ -1,0 +1,105 @@
+Python Virtual Environment
+---------------------------
+
+Create a Virtual Environment
+----------------------------
+command is
+
+python -m venv Virtual_Env_Name
+
+
+Activate Virtual Environment
+----------------------------
+
+Virtual_Env_Name\Scripts\activate
+
+
+Deactivate Virtual Environment
+------------------------------
+command is
+	
+deactivate
+
+
+Delete Vitual Environment
+--------------------------
+rm -rf Virtual_Env_Name
+
+
+EXCEPTIONS
+----------
+
+exceptions are used to handle error pron code that will get triggered at runtime
+
+On Errors the execution of the code will stop
+
+
+Exception
+	Arithmetic Exception
+		overflow error
+
+	SystemError Exception
+
+	FileNotFound
+
+	DivisionByZero
+
+	ValueError
+	
+	TypeError
+
+
+
+FLASK
+-----
+Flask is a frame work used for web development.
+
+REST API with FLASK
+
+a. hello World with Flask
+
+b. Get and Post in Flask
+
+c. REST API
+
+	GET, POST, PUT, Delete and Patch
+
+
+Flask 
+-----
+internal Web server - used only for development
+
+JINJA scripting
+
+Pass information between two different applications
+
+1. text format
+
+2. Web Services
+
+data was passed in the form of XML files
+
+Ligth weight Web Technologies
+
+Javascript Framework
+
+3. RESTful Framework
+ --------------------
+In REST (Representational State Transfer) the data is transferred in JSON format
+
+JSON - Javascript Objec Notation
+
+Json format is very similar to hash or dictionaries in python
+
+REST API
+--------
+
+
+
+
+
+
+
+
+
+
