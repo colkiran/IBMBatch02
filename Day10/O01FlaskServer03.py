@@ -18,7 +18,18 @@ class Players(Resource):
 
     def put(self, player):
         players[player]['team'] = request.form['team']
-        return {player:players[player]}
+        return {'result':players[player]}
+
+    def post(self, player):
+        players[player] = request.form[player]
+        return players
+
+    def delete(self, player):
+        if player in players:
+            del players[player]
+            return {'result': players}
+        else:
+            return {'KeyError': "Invalid key, Please enter a valid key....."}
 
 api.add_resource(Players, "/getplayer/<string:player>")
 

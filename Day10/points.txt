@@ -1,0 +1,52 @@
+REST API
+--------
+GET	-	Get the data from the server		
+
+
+PUT 	-	Add new field to the existing Record	
+
+
+POST	-	add a new record
+
+
+Patch	-	update the existing data
+
+
+Delete	-	Delete a record
+
+
+Post - partially getting added
+
+patch - not working
+
+
+
+Logging Module
+---------------
+
+Level 		Numeric values
+
+critical		50
+
+Error			40
+
+Warning			30
+
+INFO			20
+
+DEBUG			10
+
+NOTSET			0
+
+THREADS
+-------
+What is a thread and why do we need a thread?
+
+code gets executed sequentially
+
+
+
+	
+
+
+

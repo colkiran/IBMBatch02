@@ -1,0 +1,8 @@
+INFO:root:Product of 10 and 20 is 200 
+INFO:root:Product of 10 and 20 is 200 
+DEBUG:root:Product of 10 and 20 is 200
+WARNING:root:Product of 10 and 20 is 200
+ERROR:root:Product of 10 and 20 is 200
+CRITICAL:root:Product of 10 and 20 is 200
+2024-04-10 16:00:19,725 : INFO : inverse of 2 is 0.5 : O06Logging02.py : 19
+20404 2024-04-10 16:01:37,841 : INFO : inverse of 2 is 0.5 : O06Logging02.py : 19
