@@ -1,0 +1,102 @@
+https://www.google.com/search?q=patch+in+rest+api+flask&sca_esv=383ef31e719fe62f&sca_upv=1&sxsrf=ACQVn0_At9JX-G9Jy4gVc74CCm9Ef0mCgA%3A1712768479054&source=hp&ei=38UWZrANrau-vQ__44nICQ&iflsig=ANes7DEAAAAAZhbT79Yw-QEaEz84uwFnc9Yy3QdDZMVQ&ved=0ahUKEwjw-Jfmj7iFAxWtla8BHf9xApkQ4dUDCBU&uact=5&oq=patch+in+rest+api+flask&gs_lp=Egdnd3Mtd2l6IhdwYXRjaCBpbiByZXN0IGFwaSBmbGFzazIFECEYoAEyBRAhGKABMgUQIRifBTIFECEYnwUyBRAhGJ8FMgUQIRifBUiZgAFQAFitfHASeACQAQCYAYoBoAGbFaoBBDYuMTm4AQPIAQD4AQGYAiugAqkXwgIEECMYJ8ICChAjGIAEGIoFGCfCAg4QABiABBiKBRixAxiDAcICCxAAGIAEGLEDGIMBwgIFEC4YgATCAg4QLhiABBiKBRixAxiDAcICDhAuGIAEGLEDGMcBGNEDwgILEC4YgAQYsQMYgwHCAhEQLhiDARjHARixAxjRAxiABMICCBAuGLEDGIAEwgIFEAAYgATCAggQABiABBixA8ICCBAuGIAEGLEDwgILEC4YgAQYxwEYrwHCAg0QLhiABBgKGLEDGIMBwgIHEC4YgAQYCsICBxAAGIAEGArCAgoQABiABBgKGLEDwgIQEC4YgAQYChjHARivARiYBcICChAuGA0YsQMYgATCAhMQLhiABBgNGLEDGIMBGLEDGIMBwgINEC4YgAQYDRixAxixA8ICBxAAGIAEGA3CAg0QABiABBgNGLEDGLEDwgITEAAYgAQYDRixAxiDARixAxiDAcICChAAGIAEGA0YsQPCAggQABiABBjJA8ICCxAAGIAEGIoFGJIDwgIGEAAYFhgewgILEAAYgAQYigUYhgPCAgcQIRgKGKABmAMAkgcFMjIuMjGgB_HXAQ&sclient=gws-wiz
+
+
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)f# Create a dummy database
+users = [
+    {'id': 1, 'name': 'Alice'},
+    {'id': 2, 'name': 'Bob'},
+]
+
+# Define the PATCH endpoint
+@app.route('/users/<int:id>', methods=['PATCH'])
+def patch_user(id):
+    # Get the user from the database
+    user = next((user for user in users if user['id'] == id), None)
+
+    # If the user doesn't exist, return a 404 error
+    if not user:
+        return jsonify({'error': 'User not found'}), 404
+
+    # Get the data from the request body
+    data = request.get_json()
+
+    # Update the user's name
+    user['name'] = data['name']
+
+    # Save the changes to the database
+    # ...
+
+    # Return the updated user
+    return jsonify(user)
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
+---------------------------------------------------------
+
+PATCH /users/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Charlie"
+}
+
+---------------------------------------------------------
+import requests
+
+url = 'http://localhost:5000/users/1'
+data = {'name': 'Charlie'}
+headers = {'Content-Type': 'application/json'}
+
+response = requests.patch(url, data=data, headers=headers)
+
+if response.status_code == 200:
+    # The request was successful
+    user = response.json()
+    print(user['name'])
+else:
+    # The request failed
+    print(response.status_code)
+
+
+
+---------------------------------------------------------------------------
+
+Introduction to pandas library, DataFrame.
+JAVATPOINT
+
+Introduction to seaborn
+https://www.javatpoint.com/python-seaborn-library
+
+
+Introduction to flask framework
+PATCH
+POST
+
+
+GitHub
+o GitHub code push
+o clone repository,
+o comparing local vs remote,
+o create branch,
+o conflict resolution
+
+Numpy
+Java
+Scikit
+https://www.geeksforgeeks.org/learning-model-building-scikit-learn-python-machine-learning-library/
+GUI desktop app
+
+Tkinter
+
+bash command
+
+PostgreSQL
+
+Authentication
+
+asynchronous programming
+

@@ -1,3 +1,4 @@
+import json
 
 from flask import Flask, request
 from flask_restful import Api, Resource
@@ -20,10 +21,18 @@ class Players(Resource):
         players[player]['team'] = request.form['team']
         return {'result':players[player]}
 
+    def patch(self, player):
+        data1 = request.json
+        data = json.loads(data1)
+        players[player][list(data.keys())[0]] = data[list(data.keys())[0]]
+        return players[player]
+
     def post(self, player):
-        print(player)
-        player = request.form[player]
-        return player
+        data1 = request.json
+        data = json.loads(data1)
+        print(data)
+        players[player] = data
+        return players
 
     def delete(self, player):
         if player in players:

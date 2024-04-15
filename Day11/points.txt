@@ -1,0 +1,55 @@
+
+REST API
+--------
+1. get
+2. put
+3. patch
+4. post
+5. delete
+
+
+Numpy
+-----
+is also known as numerical Python
+
+found by travis Oliphant - 2005
+
+numpy arrays are stored at one continous memory location unlike lists, hence its faster compared to lists. This behaviour is called as locality of reference
+
+array that is stored as numpy array to implement functions in the numpy library
+
+   
+    c0  c1  c2
+r0   1   2   3
+r1   4   5   6
+r2   7   8   9
+
+
+
+Pandas
+------
+data - 25 columns 500000 rows of data
+
+we cleanse the data  - remove rows and cols with unnecessary information or null values
+
+we summarize it and then show it in the form of graphs - seaborn
+
+
+data frame
+----------
+
+
+
+
+Seaborn
+
+Scikit
+------
+one of the mose useful and robost library for ML in python
+
+
+
+
+
+
+
